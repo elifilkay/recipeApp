@@ -1,16 +1,6 @@
-# recipes_app
+Recipe App, kullanıcıların yemek tariflerini keşfetmelerine, eklemelerine, aramalarına ve yönetmelerine olanak tanır. Uygulama, kullanıcıların tariflerini görsel ve açıklamalarla listeleyip detaylarına erişmelerini sağlar. Yeni tarif ekleme, sahip olunan malzemelere göre tarif arama ve kullanıcı profilini yönetme özellikleri de sunar. Firebase Authentication ile kullanıcılar güvenli bir şekilde giriş yapabilir ve çıkış yapabilir. Profil ekranında, kullanıcının paylaştığı tariflerin sayısı görüntülenir ve bu tariflere kolayca erişilebilir. 
 
-A new Flutter project.
+*Firebase Authentication: Uygulama, kullanıcıların giriş yapmalarını ve yeni hesaplar oluşturmalarını sağlamak için Firebase Authentication kullanır. Firebase, kullanıcı doğrulama ve oturum yönetimi işlemlerini güvenli bir şekilde sağlar.
 
-## Getting Started
+*Cloud Firestore: Tarifler ve kullanıcı verileri gibi dinamik içeriklerin depolanması için Firebase'in NoSQL veritabanı olan Cloud Firestore kullanılır. Bu sayede veriler gerçek zamanlı olarak güncellenebilir ve senkronize edilebilir.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
